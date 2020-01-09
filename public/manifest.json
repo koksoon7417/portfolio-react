@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Tan Kok Soon | My Portfolio",
+  "name": "Tan Kok Soon | My Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -10,16 +10,11 @@
     {
       "src": "logo192.png",
       "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "192x124"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#4f90cd",
+  "background_color": "#4f90cd"
 }

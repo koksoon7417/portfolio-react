@@ -1,0 +1,60 @@
+@import 'breakpoints';
+
+html {
+	font-size: 12px;
+
+	@include breakpoint-small-up {
+    font-size: 14px;
+  }
+
+  @include breakpoint-medium-up {
+    font-size: 16px;
+  }
+
+  @include breakpoint-large-up {
+    font-size: 18px;
+	}
+
+	@include breakpoint-xxlarge-up {
+    font-size: 20px;
+  }
+}
+
+body {
+  margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+  background-color: white;
+  color: #4f90cd;
+}
+
+.content-grid {
+	margin: 0 auto;
+	width: calc(100% - 5rem); // mobile
+
+	@include breakpoint-medium-up {
+		width: calc(100% - 5rem);
+	}
+
+	@include breakpoint-large-up {
+		width: calc(100% - 10rem);
+	}
+
+	@include breakpoint-xlarge-up {
+		width: calc(100% - 20rem);
+	}
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

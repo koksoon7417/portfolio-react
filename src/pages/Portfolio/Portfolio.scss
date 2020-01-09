@@ -1,0 +1,242 @@
+@import '../../styles/breakpoints';
+
+.portfolio-page {
+  padding-top: 2rem;
+  min-height: 100vh;
+  display: flex;
+	flex: 0 1 auto;
+	flex-direction: column;
+  justify-content: center;
+
+  @include breakpoint-small-down {
+    padding-top: 3rem;
+  }
+
+  h1 {
+    padding: 1rem 0;
+    font-size: 3rem;
+  }
+
+  .content-grid {
+    flex: auto;
+  }
+
+  .portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    @include breakpoint-small-down {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .portfolio-item {
+    background-color: #4f90cd;
+    color: white;
+  }
+
+  .portfolio-item a {
+    color: white;
+  }
+
+  .portfolio-item__links a:hover {
+    border-bottom: 2px solid;
+  }
+}
+
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0;
+  border-radius: 10px;
+  transition: box-shadow 0.25s;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 2px 1px -2px rgba(0, 0, 0, 0.2);
+  width: 16rem;
+  margin: 1rem 1rem;
+
+  @include breakpoint-small-down {
+    width: 18rem;
+  }
+
+  &:hover {
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
+  }
+
+  &__title {
+    flex: 1;
+    padding: 1rem 1.5rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-align: center;
+
+    @include breakpoint-small-down {
+      font-size: 1.25rem;
+    }
+  }
+
+  &__titleFYP {
+    padding: 1rem 1.5rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-align: center;
+
+    @include breakpoint-small-down {
+      font-size: 1.25rem;
+    }
+  }
+
+  img {
+    justify-self: flex-start;
+    margin-left: 0.5rem;
+    flex-direction: column;
+    align-items: left;
+    max-width: 10%;
+    max-height: inherit;
+  }
+
+  .fingerprint {
+    max-width: 5%;
+  }
+
+  &__italic {
+    padding: 0 0.5rem;
+    padding-bottom: 1rem;
+    font-size: 0.75rem;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+
+    @include breakpoint-small-down {
+      font-size: 0.875rem;
+    }
+  }
+
+  &__desc {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.25rem;
+
+    @include breakpoint-small-down {
+      font-size: 0.875rem;
+    }
+  }
+
+  &__descJustify {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.25rem;
+
+    @include breakpoint-small-down {
+      font-size: 0.875rem;
+    }
+  }
+
+  &__descLeft {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.5rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.25rem;
+
+    @include breakpoint-small-down {
+      font-size: 0.875rem;
+    }
+  }
+
+  &__icon {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+
+    svg {
+      margin: 0 0.25rem;
+    }
+  }
+
+  &__links {
+    padding: 0 0 0.75rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.875rem;
+    font-weight: 400;
+
+    a {
+      padding-bottom: 0.25rem;
+      border-bottom: 2px solid transparent;
+
+      &:hover {
+        cursor: pointer;
+        border-bottom: 2px solid inherit;
+      }
+    }
+  }
+}
+
+.my-AlarmE {
+  &.bounce-xy {
+    animation: bounce-xy 2s infinite;
+  }
+
+  @keyframes bounce-xy {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform: translateY(0) translateX(0);
+    }
+    40% {
+      transform: translateY(2px) translateX(2px);
+    }
+    60% {
+      transform: translateY(1px) translateX(1px);
+    }
+  }
+}
+
+.signal {
+  max-width: 10%;
+  height: inherit;
+  padding-left: 0.25rem;
+
+  #Vector, #Vector_2, #Vector_3, #Vector_4 {
+    fill: #4f90cd;
+    animation: fade 2s infinite;
+    animation-delay: 1.5s;
+  }
+
+  #Vector_2 {
+    animation-delay: 2s;
+  }
+
+  #Vector_3 {
+    animation-delay: 2.5s;
+  }
+
+  #Vector_4 {
+    animation-delay: 3.5s;
+  }
+
+  @keyframes fade {
+    from {
+      fill: #4f90cd;
+    }
+    to {
+      fill: black;
+    }
+  }
+}
