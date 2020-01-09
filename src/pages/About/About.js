@@ -13,7 +13,7 @@ function About() {
             used in engineering project and internship.
           </p>
           <p>
-            Developed an Android application for AlarmE,
+            Bluetooth Low Energy (BLE) Android application for AlarmE,
             Real-Time Operating System (RTOS) for fingerprint
             and MEAN stack web application for 'challenges'.
           </p>

@@ -72,6 +72,10 @@
     font-weight: 400;
     text-align: center;
 
+    .fa-truck-monster, .fa-cloud-sun, .fa-fingerprint, .fa-fist-raised{
+      margin-left: 0.5rem;
+    }
+
     @include breakpoint-small-down {
       font-size: 1.25rem;
     }
@@ -86,15 +90,6 @@
     @include breakpoint-small-down {
       font-size: 1.25rem;
     }
-  }
-
-  img {
-    justify-self: flex-start;
-    margin-left: 0.5rem;
-    flex-direction: column;
-    align-items: left;
-    max-width: 10%;
-    max-height: inherit;
   }
 
   .fingerprint {
@@ -186,7 +181,11 @@
   }
 }
 
-.my-AlarmE {
+.fa-tag {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  color: #296e01;
+
   &.bounce-xy {
     animation: bounce-xy 2s infinite;
   }

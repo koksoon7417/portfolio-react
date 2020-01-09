@@ -1,5 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import './MyPage.scss';
 
@@ -12,8 +11,8 @@ function MyPage() {
           Electrical and Computer Systems Engineer
         </div>
         <div className="social-icons animate-icons">
-          <a href="https://github.com/koksoon7417"><FontAwesomeIcon icon={['fab', 'github']} /></a>
-          <a href="https://www.linkedin.com/in/kok-soon-tan/"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+          <a href="https://github.com/koksoon7417"><i className="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/kok-soon-tan/"><i className="fab fa-linkedin"></i></a>
         </div>
       </main>
     </div>
