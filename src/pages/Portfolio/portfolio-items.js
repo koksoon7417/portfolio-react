@@ -20,12 +20,10 @@ export default [{
       </div>
     </div>
   ),
-  content : 'Worked actively with 3 enginnering students to create a webpage that can provide a range of weather forecast at the current location or any locations.',
+  content : 'Invented a portable alarm that can instantly produce a loud sound when the alarm is taken away from a person who has a smartphone.',
   links:
       [{
-        link: (
-          <a href="https://koksoon7417.github.io/weatherForecast/">Web App</a>
-        )
+        link: (<span></span>)
       }]
 }, {
   name: '3-Wheel Robot',
@@ -119,7 +117,7 @@ export default [{
       </div>
     </div>
   ),
-  content : 'a',
+  content : 'Partnered with the University of Malaya Medical Centre, doctors and the UMCH team to design a challenges project that allows a user to compete with other users.',
   links:
       [{
         link: (<span></span>)
