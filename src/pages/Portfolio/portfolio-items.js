@@ -2,9 +2,9 @@ import React from 'react';
 import SignalIcon from '../../images/Signal_Icon';
 
 export default [{
-  name: 'FinalYearProject',
+  name: 'AlarmE',
   render: (
-    <div className='portfolio-item'>
+    <div>
       <div className='portfolio-item__titleFYP'>
         AlarmE
         <i className="fas fa-tag bounce-xy" data-fa-transform="rotate-90"></i>
@@ -14,20 +14,23 @@ export default [{
         Invented a portable alarm that can instantly produce a loud sound when the alarm is taken away from
         a person who has a smartphone.
       </div>
-
       <div className='portfolio-item__icon'>
         <i className="fab fa-cuttlefish"></i>
         <i className="fab fa-android"></i>
       </div>
-      <div className='portfolio-item__links' style={{color : '#4f90cd'}}>
-        No Link
-      </div>
     </div>
-  )
+  ),
+  content : 'Worked actively with 3 enginnering students to create a webpage that can provide a range of weather forecast at the current location or any locations.',
+  links:
+      [{
+        link: (
+          <a href="https://koksoon7417.github.io/weatherForecast/">Web App</a>
+        )
+      }]
 }, {
-  name: 'Three-WheelRobot',
+  name: '3-Wheel Robot',
   render: (
-    <div className='portfolio-item'>
+    <div>
       <div className='portfolio-item__title'>
         3-Wheel Robot
         <i className="fas fa-truck-monster"></i>
@@ -39,15 +42,17 @@ export default [{
       <div className='portfolio-item__icon'>
         <i className="fab fa-cuttlefish"></i>
       </div>
-      <div className='portfolio-item__links' style={{color : '#4f90cd'}}>
-        No Link
-      </div>
     </div>
-  )
+  ),
+  content : '',
+  links:
+      [{
+        link: (<p></p>)
+      }]
 }, {
-  name: 'weather-forecast',
+  name: 'Weather Forecast',
   render: (
-    <div className='portfolio-item'>
+    <div>
       <div className='portfolio-item__title'>
         Weather Forecast
         <i className="fas fa-cloud-sun"></i>
@@ -59,16 +64,24 @@ export default [{
       <div className='portfolio-item__icon'>
         <i className="fab fa-js"></i>
       </div>
-      <div className='portfolio-item__links'>
-        <a href="https://koksoon7417.github.io/weatherForecast/">Webpage</a>
-        <a href="https://github.com/koksoon7417/weatherForecast">Codes</a>
-      </div>
     </div>
-  )
+  ),
+  content : '',
+  links:
+      [{
+        link: (
+          <a href="https://koksoon7417.github.io/weatherForecast/">Web App</a>
+        )
+      },
+      {
+        link: (
+          <a href="https://github.com/koksoon7417/weatherForecast">Codes</a>
+        )
+      }]
 }, {
-  name: 'RnD',
+  name: 'Fingerprint',
   render: (
-    <div className='portfolio-item'>
+    <div>
       <div className='portfolio-item__title'>
         Fingerprint
         <i className="fas fa-fingerprint"></i>
@@ -80,15 +93,17 @@ export default [{
       <div className='portfolio-item__icon'>
         <i className="fab fa-cuttlefish"></i>
       </div>
-      <div className='portfolio-item__links' style={{color : '#4f90cd'}}>
-        No Link
-      </div>
     </div>
-  )
+  ),
+  content : '',
+  links:
+      [{
+        link: (<p></p>)
+      }]
 }, {
-  name: 'WebDeveloper',
+  name: 'Challenges',
   render: (
-    <div className='portfolio-item'>
+    <div>
       <div className='portfolio-item__title'>
         'Challenges'
         <i className="fas fa-fist-raised"></i>
@@ -102,9 +117,11 @@ export default [{
         <i className="fab fa-node-js"></i>
         <i className="fab fa-js"></i>
       </div>
-      <div className='portfolio-item__links' style={{color : '#4f90cd'}}>
-        No Link
-      </div>
     </div>
-  )
+  ),
+  content : 'a',
+  links:
+      [{
+        link: (<span></span>)
+      }]
 }]

@@ -37,13 +37,15 @@
     color: white;
   }
 
-  .portfolio-item a {
+  .portfolio-item a, p {
     color: white;
   }
 
-  .portfolio-item__links a:hover {
+  .portfolio-item__links a:hover, p:hover {
     border-bottom: 2px solid;
   }
+
+
 }
 
 .portfolio-item {
@@ -169,7 +171,7 @@
     font-size: 0.875rem;
     font-weight: 400;
 
-    a {
+    a, p {
       padding-bottom: 0.25rem;
       border-bottom: 2px solid transparent;
 

@@ -7,7 +7,7 @@ const isSmoothScrollSupported = ((document || {}).documentElement || {}).style
   : false;
 
 class Nav extends Component  {
-  scrollToPage(pageSelector) {
+  scrollToPage = pageSelector => {
     const nextPage = document.querySelector(pageSelector);
 
     if (nextPage) {
