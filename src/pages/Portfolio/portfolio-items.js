@@ -20,7 +20,7 @@ export default [{
       </div>
     </div>
   ),
-  content : 'Invented a portable alarm that can instantly produce a loud sound when the alarm is taken away from a person who has a smartphone.',
+  content : '',
   links:
       [{
         link: (<span></span>)
@@ -117,7 +117,7 @@ export default [{
       </div>
     </div>
   ),
-  content : 'Partnered with the University of Malaya Medical Centre, doctors and the UMCH team to design a challenges project that allows a user to compete with other users.',
+  content : '',
   links:
       [{
         link: (<span></span>)
